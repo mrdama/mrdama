@@ -1,16 +1,28 @@
-### Hi there 👋
+#!/bin/bash
 
-<!--
-**mrdama/mrdama** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+echo "Selamat Datang Di Newspaper"
+sleep 1
+echo "___________________________"
+sleep 1
+echo "(1). Perkenalan Diri"
+echo "(2). Breaking News For U"
+read -p "Pilih Salah Satu :" pilih;
+if [ $pilih = "1" ]
+then
+    echo "Perkenalan Diri"
+    echo "Nama :" 
+    echo "Sekolah :"
+    echo "Terima Kasih Kak Gita Sudah Diisi Semua..."
+    read -p $back
+elif [ $pilih = "2" ]
+then 
+    echo "Hai Git Mau Serius Dikit Nih..."
+    sleep 1
+    echo "Salah satu hal yang paling menyedihkan dalam hidup adalah ketika kita takut kehilangan seseorang yang bahkan bukan milikmu."
+    sleep 2
+    echo "Dan itu terbukti. Sekarang, Aku takut kehilangan dirimu. Aku begitu takut akan kehilangan kita yang selalu bersama:("
+    sleep 3
+    echo "Cinta kadang datang secara tiba-tiba. Kepada siapa, kapan, dan bagaimana cinta itu bisa datang. Kita tidak bisa menyalahkan cinta, karena semua telah direncanakan oleh Tuhan."
+    sleep 4
+    echo "Dan sekarang, aku hanya bisa mengagumimu tanpa bisa memilikimu:("
+fi
